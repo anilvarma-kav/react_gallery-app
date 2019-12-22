@@ -1,12 +1,20 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
+
 // import required modules
 import React from 'react';
+// You can get access to the history object’s properties and the closest <Route>'s match
+// via the withRouter higher-order component. withRouter will pass updated match, location, and
+// history props to the wrapped component whenever it renders.
 import { withRouter } from 'react-router-dom';
 
 // Search Component
 const Search = (props) => {
     // Creating reference to input element
     let searchInput = React.createRef();
-    // Add the search URL to history component
+    // handle search based on the user input
     let handleSearch = (e) => {
         e.preventDefault();
         let path = `search/${searchInput.current.value}`;
@@ -14,6 +22,7 @@ const Search = (props) => {
         props.handleSearch(searchInput.current.value);
         e.currentTarget.reset();
     }
+    // Rendering search Component
     return(
         <form className="search-form" onSubmit={handleSearch}>
             <input type="search" name="search" placeholder="Search" required ref={searchInput}/>

@@ -1,3 +1,8 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
+
 //Import all necessary modules
 import React, {Component} from 'react';
 import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
@@ -58,7 +63,7 @@ handleSearch =(query = "fog") =>{
         this.handleSearch("fire");
         this.handleSearch("rain");
     }
-    // Redering the child elements of App component
+    // Rendering the App component
     render() {
         return (
             <BrowserRouter>

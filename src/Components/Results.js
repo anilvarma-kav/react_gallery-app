@@ -1,9 +1,15 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
+
+// Import necessary modules
 import React, {Component} from "react";
 import Image from "./Image";
 import Notfound from "./Notfound";
 
 class Results extends Component {
-
+    // Render the results Component with image results if exists otherwise render a NotFound Component
     render() {
         const results = this.props.flickrs;
         const tag = this.props.tag;

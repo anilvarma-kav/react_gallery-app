@@ -1,3 +1,7 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 const Nav  = () => {
@@ -11,5 +15,4 @@ const Nav  = () => {
         </nav>
     )
 };
-
 export default Nav;

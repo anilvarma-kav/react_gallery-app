@@ -1,5 +1,8 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
 import React from "react";
-
 const Notfound = () => {
     return (
         <li className="not-found">

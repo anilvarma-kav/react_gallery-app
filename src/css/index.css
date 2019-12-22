@@ -2,12 +2,14 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #3f4850;
+  background-color: #2364e6;
 }
 
 h2 {
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
+  color: #e2dee1;
 }
 
 ul {
@@ -34,7 +36,7 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
+  background-color: #1647eb;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -59,7 +61,7 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background: #1647eb;
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -68,7 +70,8 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #dddae2;
+  color: black;
 }
 
 .photo-container ul {
@@ -129,4 +132,5 @@ input {
     margin: 10px;
     width: 100px;
   }
+
 }

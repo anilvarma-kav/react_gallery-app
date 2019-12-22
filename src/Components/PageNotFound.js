@@ -1,3 +1,7 @@
+/**
+ * Author: Anil Varma Keerthipati
+ * Project: React-Gallery-App
+ */
 import React from "react";
 
 // Component for 404 errors
