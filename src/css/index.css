@@ -18,6 +18,13 @@ ul {
 a {
   text-decoration: none;
 }
+.animate{
+  color: cornflowerblue;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+}
 
 .search-form {
   max-width: 460px;

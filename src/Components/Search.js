@@ -1,11 +1,17 @@
+// import required modules
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
-
-const Search = ({searchTag}) => {
+// Search Component
+const Search = (props) => {
+    // Creating reference to input element
     let searchInput = React.createRef();
+    // Add the search URL to history component
     let handleSearch = (e) => {
         e.preventDefault();
-        searchTag(searchInput.current.value);
+        let path = `search/${searchInput.current.value}`;
+        props.history.push(`/${path}`);
+        props.handleSearch(searchInput.current.value);
         e.currentTarget.reset();
     }
     return(
@@ -22,4 +28,4 @@ const Search = ({searchTag}) => {
     )
 }
 
-export default Search;
+export default withRouter (Search);
