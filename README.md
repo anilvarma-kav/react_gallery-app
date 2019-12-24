@@ -3,7 +3,7 @@
 In this project, I have used very popular React Library to create an image gallery app. This was built in the style of modern single page applications to keep it fast, modular, and in sync with current web development trends.
 <br><br>
 
-### Hosted htrough NEtlify:
+### Hosted through NEtlify:
 URL: https://reverent-northcutt-ce0379.netlify.com/
 ### By Doing This Project: 
 I have learned some of the best practices of working with React, 
